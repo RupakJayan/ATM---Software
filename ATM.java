@@ -11,6 +11,7 @@ public class ATM {
     public ATM(int pin, double initialBalance) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Rupak Jayan ");
         System.out.print("Enter ATM Location: ");
         this.location = scanner.nextLine();
 
